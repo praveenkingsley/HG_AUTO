@@ -4,11 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import tests.authorizationpolicy.ehrSetting.EHR_Setting_Policy;
-
+import com.healthgraph.SeleniumFramework.TestNG.TestBase;
 import java.util.List;
 
-public class Page_DispensaryMaster extends EHR_Setting_Policy {
+public class Page_DispensaryMaster extends TestBase {
 
     public Page_DispensaryMaster(WebDriver driver) {
         PageFactory.initElements(driver, this);
